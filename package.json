@@ -1,0 +1,22 @@
+{
+  "name": "weatherapi",
+  "version": "1.0.0",
+  "description": "Current and historical weather api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RestFul",
+    "Weather",
+    "API"
+  ],
+  "author": "gusddm",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "express": "^4.16.2",
+    "moment-timezone": "^0.5.14",
+    "mongoose": "^5.0.3"
+  }
+}
