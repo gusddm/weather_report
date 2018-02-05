@@ -3,7 +3,10 @@ calculate average for last 24hs and instant temperature
 
 Se exponen dos endpoints para obtener en formato JSON, tanto la temperatura, humedad y condicion actuales, como la temperatura promedio de las ultimas 24hs.
 
-Para instalacion y ejecucion, es necesario tener el gestor de paquetes npm:
+Para instalacion y ejecucion, es necesario tener el gestor de paquetes npm.
+
+Instalacion npm
+------------------
 
 https://docs.npmjs.com/getting-started/installing-node
 
@@ -14,6 +17,15 @@ npm install
 Con las dependencias instaladas, para ejecutar el servidor de node usar el siguiente comando, situados sobre el raiz del proyecto:
 
 npm start run
+
+También es necesario contar con un server de mongo.db instalado y corriendo.
+
+https://docs.mongodb.com/manual/installation/
+
+Para correr mongodb (windows), usar un comando de este estilo:
+-------------------------------------------------------
+
+"...\MongoDB\Server\3.6\bin>mongod" --dbpath "...\MongoDB\data"
 
 Ejemplos de uso:
 --------------------
